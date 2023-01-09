@@ -27,7 +27,6 @@ Future<void> main() async {
   // Escrevendo diversas informações no arquivo
   var listNomes = ['Geovana', 'Lucas', 'Cicero', 'Libilly', 'Ryan', 'Jayne'];
   var file3 = File('lib/9_files/files/file3.txt');
-  var writeFile = file3.openWrite(mode: FileMode.append );
-
-  listNomes.forEach((nome)=> writeFile.write('$nome \n') );
+  var writeFile = file3.openWrite(mode: FileMode.append);
+  listNomes.forEach((nome) => writeFile.write('$nome \n'));
 }

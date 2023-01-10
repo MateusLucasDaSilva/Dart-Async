@@ -15,8 +15,7 @@ Future<void> main() async {
 
       for (var numero in numeros) {
         print('enviando Pessoa:');
-        inStream.add(Pessoa(nome: 'Mateus Lucas $numero
-        '));
+        inStream.add(Pessoa(nome: 'Mateus Lucas $numero}'));
     
         
       }
